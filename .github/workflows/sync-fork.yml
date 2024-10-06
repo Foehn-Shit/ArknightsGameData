@@ -22,6 +22,8 @@ jobs:
         run: |
           git remote add upstream https://github.com/Kengxxiao/ArknightsGameData.git
           git fetch upstream
-          git checkout master  # 或者你使用的主要分支
-          git merge upstream/master
-          git push origin master  # 将更改推送到你的 fork
+          git checkout master  # 替换为目标仓库的主分支名
+          git merge upstream/master  # 替换为目标仓库的主分支名
+
+      - name: Push changes
+        run: git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Foehn-Shit/ArknightsGameData.git master  # 替换为目标分支名
