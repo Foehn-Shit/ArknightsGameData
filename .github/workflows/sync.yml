@@ -36,4 +36,5 @@ jobs:
 
       # Push changes to the forked repository
       - name: Push Changes
-        run: git push origin master
+        run: |
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git master
