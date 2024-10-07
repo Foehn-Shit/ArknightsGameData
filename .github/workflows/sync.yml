@@ -2,8 +2,15 @@ name: Sync Fork with Upstream
 
 on:
   schedule:
-    - cron: '0 0 * * 0'  # 每周同步一次
-  workflow_dispatch:  # 手动触发
+    - cron: '5 2 * * *'   # 每天的 10:05（CST）
+    - cron: '10 2 * * *'  # 每天的 10:10（CST）
+    - cron: '30 2 * * *'  # 每天的 10:30（CST）
+    - cron: '0 3 * * *'   # 每天的 11:00（CST）
+    - cron: '5 8 * * *'   # 每天的 16:05（CST）
+    - cron: '10 8 * * *'  # 每天的 16:10（CST）
+    - cron: '30 8 * * *'  # 每天的 16:30（CST）
+    - cron: '0 9 * * *'   # 每天的 17:00（CST）
+  workflow_dispatch:  # 允许手动触发工作流
 
 jobs:
   sync:
