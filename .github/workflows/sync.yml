@@ -2,8 +2,8 @@ name: Sync Fork with Upstream
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每周同步一次（周日 0 点），可以根据需要调整时间
-  workflow_dispatch: # 允许手动触发同步
+    - cron: '0 0 * * 0'  # 每周同步一次
+  workflow_dispatch:  # 手动触发
 
 jobs:
   sync:
@@ -15,6 +15,12 @@ jobs:
         with:
           repository: ${{ github.repository }}
           ref: master  # 使用 master 分支
+
+      # Set GitHub user info for commit
+      - name: Set GitHub User
+        run: |
+          git config --global user.email "mzt1214164232@gmail.com"
+          git config --global user.name "Foehn-Shit"  # 将YourGitHubUsername替换为你的GitHub用户名
 
       # Add upstream repository
       - name: Add Upstream Repository
