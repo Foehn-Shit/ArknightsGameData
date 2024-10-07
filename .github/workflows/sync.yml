@@ -1,0 +1,33 @@
+name: Sync Fork with Upstream
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每周同步一次（周日 0 点），可以根据需要调整时间
+  workflow_dispatch: # 允许手动触发同步
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout the current repository (fork)
+      - name: Checkout Fork Repository
+        uses: actions/checkout@v2
+        with:
+          repository: ${{ github.repository }}
+          ref: master  # 使用 master 分支
+
+      # Add upstream repository
+      - name: Add Upstream Repository
+        run: git remote add upstream https://github.com/Kengxxiao/ArknightsGameData.git
+
+      # Fetch upstream changes
+      - name: Fetch Upstream Changes
+        run: git fetch upstream
+
+      # Merge upstream changes into fork's master branch
+      - name: Merge Upstream Changes
+        run: git merge upstream/master --allow-unrelated-histories
+
+      # Push changes to the forked repository
+      - name: Push Changes
+        run: git push origin master
