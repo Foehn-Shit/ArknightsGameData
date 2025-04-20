@@ -5251,6 +5251,48 @@
       "limitParam": null
     },
     {
+      "gachaPoolId": "SINGLE_60_0_1",
+      "gachaIndex": 343,
+      "openTime": 1743998400,
+      "endTime": 1745179199,
+      "gachaPoolName": "指令·重构",
+      "gachaPoolSummary": "结束于4月21日 03:59",
+      "gachaPoolDetail": "-",
+      "guaranteeName": "定向选调",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "freeBackColor": null,
+      "gachaRuleType": "SINGLE",
+      "dynMeta": null,
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": null
+    },
+    {
+      "gachaPoolId": "DOUBLE_60_0_2",
+      "gachaIndex": 346,
+      "openTime": 1744228800,
+      "endTime": 1745438399,
+      "gachaPoolName": "适合多种场合的强力干员",
+      "gachaPoolSummary": "结束于4月24日 03:59",
+      "gachaPoolDetail": "-",
+      "guaranteeName": "标准选调",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "freeBackColor": null,
+      "gachaRuleType": "DOUBLE",
+      "dynMeta": null,
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": null
+    },
+    {
       "gachaPoolId": "LIMITED_9_0_3",
       "gachaIndex": 10,
       "openTime": 1588316400,
@@ -8050,6 +8092,66 @@
       "limitParam": null
     },
     {
+      "gachaPoolId": "CLASSIC_DOUBLE_59_0_2",
+      "gachaIndex": 9947,
+      "openTime": 1743624000,
+      "endTime": 1744833599,
+      "gachaPoolName": "适合多种场合的强力干员",
+      "gachaPoolSummary": "结束于4月17日 03:59",
+      "gachaPoolDetail": null,
+      "guaranteeName": "中坚选调",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "freeBackColor": null,
+      "gachaRuleType": "CLASSIC_DOUBLE",
+      "dynMeta": {
+        "main6RarityCharId": "char_134_ifrit",
+        "rare5CharList": [
+          "char_102_texas",
+          "char_379_sesa",
+          "char_343_tknogi"
+        ],
+        "scrollIndex": 8,
+        "sub6RarityCharId": "char_172_svrash"
+      },
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": null
+    },
+    {
+      "gachaPoolId": "CLASSIC_DOUBLE_60_0_1",
+      "gachaIndex": 9946,
+      "openTime": 1744833600,
+      "endTime": 1746043199,
+      "gachaPoolName": "适合多种场合的强力干员",
+      "gachaPoolSummary": "结束于5月1日 03:59",
+      "gachaPoolDetail": null,
+      "guaranteeName": "中坚选调",
+      "guarantee5Avail": 1,
+      "guarantee5Count": 10,
+      "LMTGSID": null,
+      "CDPrimColor": null,
+      "CDSecColor": null,
+      "freeBackColor": null,
+      "gachaRuleType": "CLASSIC_DOUBLE",
+      "dynMeta": {
+        "main6RarityCharId": "char_147_shining",
+        "rare5CharList": [
+          "char_373_lionhd",
+          "char_106_franka",
+          "char_201_moeshd"
+        ],
+        "scrollIndex": 8,
+        "sub6RarityCharId": "char_213_mostma"
+      },
+      "linkageRuleId": null,
+      "linkageParam": null,
+      "limitParam": null
+    },
+    {
       "gachaPoolId": "SPECIAL_54_0_5",
       "gachaIndex": 40,
       "openTime": 1727424000,
@@ -10828,6 +10930,20 @@
       "spriteId": "picDouble_59_0_4"
     },
     {
+      "poolId": "SINGLE_60_0_1",
+      "index": 343,
+      "startTime": 1743998400,
+      "endTime": 1745179199,
+      "spriteId": "picSingle_60_0_1"
+    },
+    {
+      "poolId": "DOUBLE_60_0_2",
+      "index": 346,
+      "startTime": 1744228800,
+      "endTime": 1745438399,
+      "spriteId": "picDouble_60_0_2"
+    },
+    {
       "poolId": "CLASSIC_ATTAIN_45_0_2",
       "index": 996,
       "startTime": 1703750400,
@@ -11092,6 +11208,18 @@
       "itemId": "SINGLE_55_0_1_GACHA_10",
       "endTime": 1729627199,
       "gachaPoolId": "SINGLE_55_0_1",
+      "isTen": true
+    },
+    {
+      "itemId": "SINGLE_60_0_1_GACHA",
+      "endTime": 1745179199,
+      "gachaPoolId": "SINGLE_60_0_1",
+      "isTen": false
+    },
+    {
+      "itemId": "SINGLE_60_0_1_GACHA_10",
+      "endTime": 1745179199,
+      "gachaPoolId": "SINGLE_60_0_1",
       "isTen": true
     }
   ],

@@ -1212,6 +1212,7 @@
   },
   "tilesDisallowToLocate": [],
   "runes": null,
+  "optionalRunes": null,
   "globalBuffs": [],
   "routes": [
     {
@@ -5048,6 +5049,10 @@
           "disarmedCombatImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "fearedImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -5210,6 +5215,10 @@
             "m_value": false
           },
           "disarmedCombatImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "fearedImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -5376,6 +5385,10 @@
           "disarmedCombatImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "fearedImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -5540,6 +5553,10 @@
           "disarmedCombatImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "fearedImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -5702,6 +5719,10 @@
             "m_value": false
           },
           "disarmedCombatImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "fearedImmune": {
             "m_defined": false,
             "m_value": false
           }
@@ -5874,6 +5895,10 @@
           "disarmedCombatImmune": {
             "m_defined": false,
             "m_value": false
+          },
+          "fearedImmune": {
+            "m_defined": false,
+            "m_value": false
           }
         },
         "applyWay": {
@@ -5971,9 +5996,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PREVIEW_CURSOR",
@@ -5994,9 +6017,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PREVIEW_CURSOR",
@@ -6017,9 +6038,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PREVIEW_CURSOR",
@@ -6040,9 +6059,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PREVIEW_CURSOR",
@@ -6063,9 +6080,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PREVIEW_CURSOR",
@@ -6086,9 +6101,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6109,9 +6122,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "STORY",
@@ -6132,9 +6143,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PLAY_OPERA",
@@ -6155,9 +6164,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PLAY_OPERA",
@@ -6178,9 +6185,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             }
           ]
         },
@@ -6206,9 +6211,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6229,9 +6232,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6252,9 +6253,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6275,9 +6274,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6298,9 +6295,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6321,9 +6316,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6344,9 +6337,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6367,9 +6358,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6390,9 +6379,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6413,9 +6400,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6436,9 +6421,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6459,9 +6442,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6482,9 +6463,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6505,9 +6484,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6528,9 +6505,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6551,9 +6526,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6574,9 +6547,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6597,9 +6568,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6620,9 +6589,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6643,9 +6610,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6666,9 +6631,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6689,9 +6652,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6712,9 +6673,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6735,9 +6694,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6758,9 +6715,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6781,9 +6736,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6804,9 +6757,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6827,9 +6778,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6850,9 +6799,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6873,9 +6820,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6896,9 +6841,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6919,9 +6862,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6942,9 +6883,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6965,9 +6904,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -6988,9 +6925,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7011,9 +6946,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7034,9 +6967,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7057,9 +6988,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7080,9 +7009,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7103,9 +7030,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7126,9 +7051,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7149,9 +7072,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7172,9 +7093,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7195,9 +7114,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7218,9 +7135,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7241,9 +7156,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7264,9 +7177,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7287,9 +7198,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7310,9 +7219,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7333,9 +7240,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7356,9 +7261,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7379,9 +7282,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7402,9 +7303,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7425,9 +7324,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7448,9 +7345,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7471,9 +7366,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7494,9 +7387,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7517,9 +7408,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7540,9 +7429,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7563,9 +7450,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7586,9 +7471,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7609,9 +7492,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7632,9 +7513,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7655,9 +7534,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7678,9 +7555,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7701,9 +7576,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7724,9 +7597,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7747,9 +7618,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7770,9 +7639,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7793,9 +7660,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7816,9 +7681,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7839,9 +7702,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7862,9 +7723,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7885,9 +7744,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7908,9 +7765,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7931,9 +7786,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7954,9 +7807,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -7977,9 +7828,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -8000,9 +7849,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -8023,9 +7870,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -8046,9 +7891,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -8069,9 +7912,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -8092,9 +7933,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -8115,9 +7954,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -8138,9 +7975,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -8161,9 +7996,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -8184,9 +8017,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -8207,9 +8038,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -8230,9 +8059,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -8253,9 +8080,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -8276,9 +8101,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -8299,9 +8122,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -8322,9 +8143,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -8345,9 +8164,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -8368,9 +8185,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "SPAWN",
@@ -8391,9 +8206,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PLAY_OPERA",
@@ -8414,9 +8227,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PLAY_OPERA",
@@ -8437,9 +8248,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PLAY_OPERA",
@@ -8460,9 +8269,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PLAY_OPERA",
@@ -8483,9 +8290,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PLAY_OPERA",
@@ -8506,9 +8311,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PLAY_OPERA",
@@ -8529,9 +8332,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PLAY_OPERA",
@@ -8552,9 +8353,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PLAY_OPERA",
@@ -8575,9 +8374,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PLAY_OPERA",
@@ -8598,9 +8395,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PLAY_OPERA",
@@ -8621,9 +8416,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PLAY_OPERA",
@@ -8644,9 +8437,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "PLAY_OPERA",
@@ -8667,9 +8458,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             },
             {
               "actionType": "STORY",
@@ -8690,9 +8479,7 @@
               "refreshType": "ALWAYS",
               "weight": 0,
               "dontBlockWave": false,
-              "isValid": false,
-              "extraMeta": null,
-              "actionId": null
+              "forceBlockWaveInBranch": false
             }
           ]
         }
@@ -8784,5 +8571,5 @@
   "excludeCharIdList": null,
   "randomSeed": 2091966532,
   "operaConfig": "act17d7_01",
-  "runtimeData": null
+  "cameraPlugin": null
 }
