@@ -3,11 +3,11 @@ local list =
 {
   
   "HotFixes/TestStubHotfixer",
-  "HotFixes/SwitchableMultiEffectByBuffStackCntHotfixer",
-  "HotFixes/LoginHotfixer",
   "HotFixes/ActVecBreakV2SquadBuffSelectStateHotfixer",
-  "HotFixes/CommonCharSelectCardDefaultViewModelHotfixer",
-  "HotFixes/AbilityStandardHotfixer",
+  "HotFixes/ActVecBreakV2OffenseStageSelectStateHotfixer",
+  "HotFixes/ActVecBreakV2OffenseTowerViewHotfixer",
+  "HotFixes/CommonCharCardCacheHotfixer",
+  "HotFixes/Phatm2TokenHitRangeProviderHotfixer"
 };
 
 return list;
