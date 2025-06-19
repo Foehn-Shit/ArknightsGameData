@@ -2,46 +2,38 @@ name: Sync Fork with Upstream
 
 on:
   schedule:
-    - cron: '5 2 * * *'   # 每天的 10:05（CST）
-    - cron: '10 2 * * *'  # 每天的 10:10（CST）
-    - cron: '30 2 * * *'  # 每天的 10:30（CST）
-    - cron: '0 3 * * *'   # 每天的 11:00（CST）
-    - cron: '5 8 * * *'   # 每天的 16:05（CST）
-    - cron: '10 8 * * *'  # 每天的 16:10（CST）
-    - cron: '30 8 * * *'  # 每天的 16:30（CST）
-    - cron: '0 9 * * *'   # 每天的 17:00（CST）
-  workflow_dispatch:  # 允许手动触发工作流
+    # 北京时间 10:15、10:30、11:00、16:15、16:30、17:00
+    - cron: '15 2 * * *'
+    - cron: '30 2 * * *'
+    - cron: '0 3 * * *'
+    - cron: '15 8 * * *'
+    - cron: '30 8 * * *'
+    - cron: '0 9 * * *'
+  workflow_dispatch:  # 支持手动触发
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+
     steps:
-      # Checkout the current repository (fork)
-      - name: Checkout Fork Repository
-        uses: actions/checkout@v2
+      - name: Checkout your repository
+        uses: actions/checkout@v3
         with:
-          repository: ${{ github.repository }}
-          ref: master  # 使用 master 分支
+          persist-credentials: false
 
-      # Set GitHub user info for commit
-      - name: Set GitHub User
+      - name: Set up Git
         run: |
-          git config --global user.email "mzt1214164232@gmail.com"
-          git config --global user.name "Foehn-Shit"  # 将YourGitHubUsername替换为你的GitHub用户名
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      # Add upstream repository
-      - name: Add Upstream Repository
+      - name: Add upstream remote
         run: git remote add upstream https://github.com/Kengxxiao/ArknightsGameData.git
 
-      # Fetch upstream changes
-      - name: Fetch Upstream Changes
+      - name: Fetch upstream
         run: git fetch upstream
 
-      # Merge upstream changes into fork's master branch
-      - name: Merge Upstream Changes
-        run: git merge upstream/master --allow-unrelated-histories
-
-      # Push changes to the forked repository
-      - name: Push Changes
+      - name: Merge upstream/main into your fork's main
         run: |
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git master
+          git checkout main
+          git merge upstream/main --allow-unrelated-histories -m "Auto-merge upstream at $(date)"
+          git push origin main
